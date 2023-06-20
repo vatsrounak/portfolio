@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e389dae7f6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="parallax-container"> <!--new-->
+    <div id="header" class="parallax-bg">
+      
+      <div class="container"> 
+        <nav>
+          <!-- <img src="image/logo3.png" alt="logo" class="logo" /> -->
+         <h1 class="name" >ROUNAK VATS</h1> 
+          <!-- <p>Discovering the Extraordinary, Celebrating the Ordinary.</p> -->
+          
+          <div id="sidemenu-wrapper"> <!--newly added-->
+          
+          <ul id = "sidemenu">
+            <li><a href="#header"><b>Home</b></a></li>
+            <li><a href="#about"><b>About</b></a></li>
+            <li><a href="#services"><b>Certificates</b></a></li>
+            <li><a href="#portfolio"><b>Portfolio</b></a></li>
+            <li><a href="#contact"><b>Contact</b></a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+        </div> <!--newly added-->
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <!-- <p>UI/UX Designer</p> -->
+          <p><br></p>
+          <h1>
+            Hi, I'm <span>Rounak</span> <br />
+            Vats From <br />
+            India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- The header section closes here  -->
+
+<!-- -----------------------------------------------------------------------------about section starts here---------------------------------------------------------    -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="image/user.jpg" />
+      </div>
+      <div class="about-col-2">
+        <div class="about-content"> <!--new-->
+        <h1 class="sub-title">About Me</h1><br>
+        <p>
+          Blockchain Developer | Open Source Enthusiast | Decentralization Advocate
+        </p><br>
+        <p>
+          Hello! Welcome to my profile. I'm Rounak Vats, a passionate blockchain developer and advocate for decentralization and Web3. With C++ as my foundational programming language and an Electronics background, I possess a unique skill set that offers me invaluable insights into low-latency systems and a comprehensive understanding of machine-level operations—effectively delving into the "bits and bytes" of a machine.<br><br>
+          
+          In addition, I am currently immersing myself in the world of cybersecurity and ethical hacking to enhance my skills as an engineer. I firmly believe that continuous learning and self-improvement are vital in this rapidly evolving field.<br><br>
+          
+          Beyond blockchain, I also have experience in the web2 space, working as a freelance web developer. Over the course of several projects, I have successfully delivered results and even contributed as a growth hacker to enhance their business prospects. My overarching goal is to harness the potential of blockchain technology to build decentralized solutions that empower individuals and foster transparency in various domains.<br><br>
+          
+          As an individual, I hold the belief that every challenge presents an opportunity for growth, and I approach them with unwavering self-belief and a strong work ethic. The greater the challenge, the greater the potential for personal and professional development.<br><br>
+          
+          Beyond my technical pursuits, I am also an avid athlete. Among various sports, badminton holds a special place for me as it keeps my mind active and alert, perfectly complementing my passion for intellectual pursuits in the realm of programming and problem-solving.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Skills
+          </p>
+          <p class="tab-links" onclick="opentab('experience')">
+            Experience
+          </p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Programming Languages</span><br /> C, C++, JavaScript,Solidity</li>
+            <li><span>Blockchain Development</span><br />Smart Contracts, DApps, Solidity, Remix, Hardhat, Foundry</li>
+            <li><span>Blockchain Protocols</span><br />Ethereum, Chainlink</li>
+          
+            <li><span>Web Development</span><br />HTML, CSS, JavaScript, Node.js</li>
+            <li><span>Version Control</span><br />Git, GitHub</li>
+        
+            <li><span>Agile Project Management</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li>
+              <span>Developed and audited smart contracts</span><br />Ensuring security and efficiency on the Ethereum blockchain.
+            </li>
+            <li>
+              <!-- <span>Collaborated on decentralized finance (DeFi) applications</span><br />Facilitating trustless transactions and financial inclusivity. -->
+            </li>
+            <li>
+              <span>Contributed to open source projects</span><br />Actively participating in code reviews, bug fixes, and feature enhancements.
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>Bachelor's Degree in Electronics and Communication Engineering</span><br />Birla Institue of Technology Mesra, 2020-2024
+            </li>
+            <li>
+              <span>Online Courses and Certifications in Blockchain Development</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ----------------------------------------------------------------------------------------about ends----------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------------certification starts----------------------------------------------------------------------------------------- -->
+    <div id="services">
+      
+      <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+       
+        <div class="services-list">
+         
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>C++</h2>
+            <p>
+              I have gained a deep understanding of the C++ programming language, including object-oriented programming, memory management, and the use of pointers. I have also learned to utilize the C++ Standard Library, handle exceptions, and perform file input/output operations.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+         
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Full-Stack Web Development</h2>
+            <p>
+              I have acquired proficiency in HTML, CSS, and JavaScript, enabling me to create well-structured and visually appealing web pages. I have learned to manipulate the Document Object Model (DOM), handle events, and build interactive and dynamic web applications. Additionally, I have gained knowledge in responsive design, cross-browser compatibility, and familiarity with front-end frameworks and libraries.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+        
+          <div>
+            <i class="fa-solid fa-diamond"></i>
+
+            <h2>Blockchain Development</h2>
+            <p>
+              The Blockchain Development course has provided me with a comprehensive understanding of blockchain technology and decentralized systems. I have gained proficiency in developing smart contracts using platforms like Ethereum and acquired knowledge in consensus mechanisms, blockchain security, and decentralized application (DApp) development. Additionally, I have learned about tokenization, token standards, and implementing blockchain solutions for various use cases.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+<!-- -----------------------------------------------------------------------------Certification ends--------------------------------------------------     -->
+
+
+<!-- ---------------------------------------------------------------------------------portfolio starts---------------------------------------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class=""sub-title>My Work</h1>
+
+    <div class="work-list">
+
+      <div class="work">
+
+      <img src="image/work1.png">
+
+      <div class="layer">
+        <h3>My Portfolio Website</h3>
+        <p>Made using HTML,CSS & JavaScript. Optimized for small screen use.</p>
+        <a href="#"><i class="fa-solid fa-code"></i></a>
+        <!-- <a href="#"><i class="fa-solid fa-code"></i>code</a> -->
+      </div>
+
+    </div>
+ 
+    <div class="work">
+      <img src="image/work-2.png">
+
+      <div class="layer">
+        <h3>Cake-Vending-Machine</h3>
+        <p>This is an entry project to begin with Arbitrum. You can find the guided steps at their website too!</p>
+        <a href="#"><i class="fa-solid fa-code"></i></a>
+      </div>
+
+    </div>
+
+    <div class="work">
+      <img src="image/work-3.png">
+      <div class="layer">
+        <h3>Sepolia-NFT-Browser</h3>
+        <p>This is a specially curated project for all the devs out there, an NFT miniting browser where you can use sepolia-testnet, which is otherwise not available with any other NFT-minting browser in the market.</p>
+        <a href="#"><i class="fa-solid fa-code"></i></a>
+      </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See more </a>
+  </div>
+</div>
+
+<!-- -------------------------------------------------------------------Portfolio ends--------------------------------------------------------------------------------------  -->
+
+
+
+
+<!-- ---------------------------------------------------------------contact-------------------------------------------------------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>rounakvats01@gmail.com</p>
+        <p><i class="fa-solid fa-mobile"></i>7258970686</p>
+        <div class="social-icons">
+          <a href="https://github.com/vatsrounak"><i class="fa-brands fa-github"></i></a>
+          <!-- <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+        </div>
+      </div>
+      <div class="contact-right">
+        <form name = "submit-to-google-sheet">
+          <input type = "text" name="Name" placeholder="Your Name" required>
+          <input type = "email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+   
+  </div>
+  <div class="copyright">
+    <p></p>
+  </div>
+</div>
+
+</div> <!--new-->
+
+
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------contact------------------------------------------------------------------------------------------------------- -->
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu= document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right ="0;"
+      }
+      function closemenu(){
+        sidemenu.style.right ="-200;"
+      }
+    </script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxzGl8KWKRvklYExw6uxGDnJ-CIo9yZdAOn6m_xuXbblwt2UcGKPfNHhJgxK4RCxvKv/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{msg.innerHTML= "Message sent successfully"
+    setTimeout(function(){msg.innerHTML =""},5000)
+  form.reset()})
+      
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<!-- ----------------------------------------------------------------------------------------Contact ends-----------------------------------------------------  -->
+
+
+ 
+
+  </body>
+</html>

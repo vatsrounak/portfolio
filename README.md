@@ -43,8 +43,8 @@ This project is licensed under the [MIT License](LICENSE).
 Feel free to reach out to me with any questions or feedback:
 
 - Email: rounakvats01@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/rounak-vats/)
-- Twitter: [@your-twitter-handle](https://twitter.com/rounakvats01)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rounak-vats/)
+- Twitter: [twitter-handle](https://twitter.com/rounakvats01)
 
 I would be happy to connect and discuss collaboration opportunities or answer any inquiries.
 

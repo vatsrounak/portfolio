@@ -6,10 +6,10 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 ## Features
 
 - **Home Page:** A visually appealing landing page with a brief introduction and links to other sections of the website.
-- **Projects:** A section that highlights my projects with descriptions, screenshots, and links to live demos or repositories.
-- **Skills:** An overview of my technical skills and areas of expertise.
-- **Experience:** Details about my work experience, internships, or any relevant professional background.
-- **Contact:** A contact form or contact information for visitors to reach out to me.
+- **About:** A bit about myself, my professional and personal interests, and an overview of my technical skills and areas of expertise.
+- **Course Work:** Various courses that I have gone through to gain my technical knowledge. 
+- **Projects:** A section that highlights my projects with descriptions, screenshots, and links the repositories.
+- **Contact:** A contact form and information for visitors to reach out to me.
 
 ## Technologies Used
 

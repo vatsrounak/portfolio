@@ -19,7 +19,9 @@ body {
   width: 100%;
   height: 100vh;
   /* background-image: url(images/background.png); */
-  background-image: url(image/background.png);
+  /* background-image: url(imgNew/background.png); */
+  background-image: url(https://i.postimg.cc/4xNjzfHL/background.png);
+  /* background-image: url(https://i.postimg.cc/mrXcbN0L/wallpaperflare-com-wallpaper-8-min.png); */
   /* background-size: cover; */
   background-size: cover;
   background-position: center;
@@ -35,13 +37,13 @@ background-size: cover;
 }
 
 /* ---------------------------------------------------------new---------------------------------- */
-.parallax-bg {
+/* .parallax-bg {
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* ------------------------------------------------------------------------------------------------------------ */
 
@@ -84,7 +86,8 @@ background-size: cover;
 
 #sidemenu li {
   margin-bottom: 10px;
-  background-color: rgba(19, 11, 1, 0.9);
+  /* background-color: rgba(19, 11, 1, 0.9); */
+  background-color: rgb(41, 40, 41);
   border-radius: 10px;
   padding: 10px;
 }
@@ -146,7 +149,8 @@ nav ul li a:hover::after {
 
 /* ---------------------------------------------------new--------------------------------------------- */
 .header-text h1 {
-  background-color:  rgba(19, 11, 1, 0.9);
+  /* background-color:  rgba(19, 11, 1, 0.9); */
+  background-color:  rgba(24, 23, 23, 0.9);
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
@@ -220,6 +224,10 @@ nav ul li a:hover::after {
   font-weight: 500;
   cursor: pointer;
   position: relative;
+  background-color: rgb(41, 40, 41);
+  /* background-color: rgba(37, 23, 5, 0.9); */
+  border-radius: 10px;
+  padding: 10px;
 
 }
 
